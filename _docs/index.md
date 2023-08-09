@@ -48,8 +48,7 @@ If you have a Linux machine that already has Docker pre-installed, please just r
 </div>
 </div>
 
-
-This should bring up a fully functional LanCache and DNS container, and an SNI Proxy to handle passthrough of https traffic.
+This should bring up a fully functional LanCache and DNS container. Historically, additional SNI Proxy container was handling passthrough of https traffic, but this is no longer required.
 
 <div class="note error">
 	<h5>It's always DNS</h5>
